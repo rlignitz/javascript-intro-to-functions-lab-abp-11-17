@@ -18,7 +18,7 @@ function sayHiToGrandma(greeting) {
   if (greeting === whisper(greeting)) {
     return "I can't hear you!";
   }
-  else if (greeting === loud(greeting)) {
+  else if (greeting === shout(greeting)) {
     return "YES INDEED!";
   }
 }
