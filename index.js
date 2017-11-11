@@ -13,3 +13,9 @@ function logShout(quiet) {
 function logWhisper(loud) {
   console.log(whisper(loud));
 }
+
+function sayHiToGrandma(greeting) {
+  if (greeting === whisper(greeting)) {
+    return "I can't hear you!";
+  }
+}
