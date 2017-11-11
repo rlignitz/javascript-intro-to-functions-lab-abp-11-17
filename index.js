@@ -1,3 +1,7 @@
-function shout(phrase) {
-  return phrase.toUpperCase();
+function shout(quiet) {
+  return quiet.toUpperCase();
+}
+
+function whisper(loud) {
+  return loud.toLowerCase();
 }
